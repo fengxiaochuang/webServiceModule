@@ -1,0 +1,15 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "./logs/track/track.log",
+      "alwaysIncludePattern": true,
+      "pattern": "-yyyy-MM-dd.log",
+      "category": "track"
+    }
+  ],
+  "replaceConsole": false,
+  "levels": {
+    "track": "ALL"
+  }
+}
